@@ -25,7 +25,7 @@ class Song
   def self.create_by_name(name)
     song = self.create
     song.name = name
-    Song
+    song
   end
 
   def self.find_by_name(name)
@@ -57,5 +57,5 @@ class Song
   def self.destroy_all
     self.all.clear
   end
-
+    
 end
